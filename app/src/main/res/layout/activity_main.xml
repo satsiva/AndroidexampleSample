@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:autoLink="web"
+                android:text="http://android-er.blogspot.com/"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:autoText="false"
+                android:bufferType="editable"
+                android:elevation="1dp"
+                android:hint="adsfdsfdsgerdg"
+                android:includeFontPadding="false"
+                android:password="false"
+                android:phoneNumber="false"
+                android:pointerIcon="cell"
+                android:scrollIndicators="top"
+                android:text="Simple TextView dygfdgd sgsyfdghd ghdgjhdfjhdfdjhfg Simple TextView dygfdgd sgsyfdghd ghdgjhdfjhdfdjhfg Simple TextView dygfdgd sgsyfdghd ghdgjhdfjhdfdjhfg"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="none"
+                android:elevation="20dp"
+                android:fadeScrollbars="true"
+                android:fadingEdgeLength="2dp"
+                android:fontFamily="@font/kpmg_light"
+                android:forceHasOverlappingRendering="true"
+                android:foregroundGravity="top|left|center"
+                android:foregroundTint="#0ce29b"
+                android:foregroundTintMode="add"
+                android:freezesText="false"
+                android:hint="dsfgdsg"
+                android:text="hi mani how are u i am fine,how goes on life,very worst for my life,how about you."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#0000ff"
+                android:elevation="20dp"
+                android:text="TextView with both elevation and background"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#ffffff"
+                android:elevation="20dp"
+                android:text="TextView with both elevation and background (same as parent background)"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#000000"
+                android:elevation="20dp"
+                android:text="TextView with both elevation and background (black)"
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#00000000"
+                android:elevation="20dp"
+                android:text="TextView with both elevation and transparent background"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtViewEmail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:alpha="0.8"
+                android:autoLink="all"
+                android:elevation="12dp"
+                android:text="Email id: abc@gmail.com hi mani how are u  +918098800488  dsjhgfhsdg www.pareshnmayani.wordpress.com jhdsgfjhsgfhdjgs "
+                android:textColorLink="@android:color/holo_red_dark"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtViewEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:autoLink="email"
+                android:text="Email id: abc@gmail.com"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtViewPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:layout_margin="5dip"
+                android:autoLink="phone"
+                android:text="Phone no: 8098800488"
+                android:textSize="16sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/txtViewWeb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:autoLink="web"
+                android:text="Web: www.pareshnmayani.wordpress.com"
+                android:textSize="16sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/txtViewAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:autoLink="map"
+                android:text="Address: 381 Park Avenue South, New York"
+                android:textSize="16sp"></TextView>
+
+
+            <EditText
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="none"
+                android:capitalize="none"
+                android:elevation="20dp"
+                android:text="Hii Mani how are u i am fine,how goes on life,very worst for my life,how about you."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="none"
+                android:capitalize="sentences"
+                android:elevation="20dp"
+                android:text="hi mani how are u i am fine,how goes on life,very worst for my life,how about you."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="none"
+                android:capitalize="words"
+                android:elevation="20dp"
+                android:text="hi mani how are u i am fine,how goes on life,very worst for my life,how about you."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="none"
+                android:capitalize="characters"
+                android:elevation="20dp"
+                android:pointerIcon="hand"
+                android:text="hi mani how are u i am fine,how goes on life,very worst for my life,how about you."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Save Button"
+                android:text="Button" />
+
+
+            <TextView
+                android:id="@+id/txtViewWeb22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:text="Web: www.pareshnmayani.wordpress.com"
+                android:textSize="16sp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
